@@ -4,6 +4,5 @@ This Java program processes a CSV file, where each cell may contain a numeric va
 HOW TO RUN:
 - Go to the project folder.
 - Open the terminal.
-- To BUILD this, use this command for Windows: javac com\processcsv*.java
+- To BUILD this, use this command: cd $SRC && find . -name '*.java' | xargs javac
 - To RUN this, use this command: java com.processcsv.Main input.csv
-
